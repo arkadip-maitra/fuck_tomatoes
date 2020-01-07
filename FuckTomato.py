@@ -3,7 +3,7 @@ import numpy as np
 from utils import MaskProcessing, Detector, Gcode
 from User_Interface import Draw, MouseManager, Buttons, Sliders
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) //duck
 cv2.namedWindow('image')
 printer = Printer.Printer('COM3', (200, 200))
 mouse = MouseManager.MouseManager(printer)
